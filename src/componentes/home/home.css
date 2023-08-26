@@ -1,0 +1,10 @@
+.menu{
+    /*margin-right: 1px;*/
+    word-spacing: 15px;
+    font-size: 30px;
+}
+.salida{
+    font-size: 25px;
+    border-radius: 100px;
+    background-color: rgb(46, 184, 11);
+}
