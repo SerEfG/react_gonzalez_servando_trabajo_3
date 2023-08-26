@@ -5,9 +5,7 @@
     padding: 10px;
     margin-left: 450px;
 }
-.etiqueta{
-    font: italic;
-}
+
 .campo{
     font: bolder;
     margin-left: 10px; /*Separación entre etiqueta y campo */
