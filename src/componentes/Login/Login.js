@@ -22,7 +22,7 @@ class Login extends Component {
                 <form>
                     <div className="general">
                         <label htmlFor="usuario">@mail: </label>
-                        <input className="campo" name="usuario" type="text" placeholder="Ingresa tu correo electrónico" onChange={event =>this.valueToState(event.target)} required/>
+                        <input className="campo" name="usuario" type="email" placeholder="Ingresa tu correo electrónico" onChange={event =>this.valueToState(event.target)} required/>
                     </div>
                     <div className="general">
                         <label htmlFor="contraseña">Contraseña: </label>
