@@ -62,7 +62,7 @@ function Tablas() {
     {
       name: 'Acción',
       cell: (row) => (
-        <button className='btn btn-primary' onClick={() => alert('Acción en construcción, en breve estará funcional')}> Editar</button>
+        <button className='btn btn-primary' onClick={() => alert('Acción en construcción, en breve estará funcional, por favor disculpe las molestias ocacionadas')}> Editar</button>
       ),
     }
   ];
