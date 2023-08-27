@@ -122,18 +122,19 @@ function Tablas() {
 
   return(
     <div className="menu1">
+      
       <DataTable 
         title='Detalles de productos'
         columns={columnas}
         data={datos}
         customStyles={estilosPersonalizados}
       ></DataTable>
-      <Link to='/'><button className="salida">Regreso</button></Link>
       <div>
-            <h3>¿Compra todo lo que figura en pantalla?</h3>
-            <h4>{nombre}</h4>
-            <button className='button' onClick={CambiaNombre}>Comprar</button>
-        </div>
+        <h3>¿Compra todo lo que figura en pantalla?</h3>
+        <h4>{nombre}</h4>
+        <button className='button' onClick={CambiaNombre}>Comprar</button>
+      </div>
+      <Link to='/'><button className="salida">Regreso</button></Link>
     </div>
   )
 
