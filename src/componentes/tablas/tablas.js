@@ -5,22 +5,22 @@ import './tablas.css'
 
 
 const estilosPersonalizados = {
-  cabeceraFila: {
-    estilo: {
-      colorFondo: 'blue',
+  headRow: {
+    style: {
+      backgroundColor: 'blue',
       color: "white"
     }
   },
-  cabeceraCeldas: {
-    estilo: {
-      letraAncho: '16px',
-      letraPeso: '600',
+  headCells: {
+    style: {
+      fontSize: '16px',
+      fontWeight: '600',
       textTransform: 'uppercase',
     },
   },
-  celdas: {
-    estilo: {
-      letraAncho: '16px',
+  cells: {
+    style: {
+      fontSize: '16px',
     },
   },
 };
@@ -32,7 +32,8 @@ function Tablas() {
     {
       name: 'Orden',
       selector: (row) => row.id,
-      sortable: true
+      sortable: true,
+      right:true
     },
     {
       name: 'Nombre',
@@ -47,17 +48,20 @@ function Tablas() {
     {
       name: 'Precio',
       selector: (row) => row.precio,
-      sortable: true
+      sortable: true,
+      right: true
     },
     {
       name: 'SKU',
       selector: (row) => row.sku,
-      sortable: true
+      sortable: true,
+      right: true
     },
     {
       name: 'Cantidad',
       selector: (row) => row.cantidad,
-      sortable: true
+      sortable: true,
+      right:true
     },
     {
       name: 'Acción',
